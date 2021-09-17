@@ -1,0 +1,160 @@
+body {
+  color: black;
+  /* background-color: white; */
+}
+
+/* hamburger menu */
+
+.hamburger-menu {
+  padding: 2%;
+  display: none;
+}
+.hamburger-menu .line {
+  width: 4%;
+  height: 5px;
+  margin-top: 1%;
+  background-color: black;
+  border-radius: 2px;
+}
+
+/* container  */
+
+.cont {
+  padding: 1% 2% 1% 2%;
+  display: flex;
+}
+
+.cont .logo {
+  display: inline;
+  font-family: "Allison", cursive;
+  font-weight: 900;
+}
+
+/* h4 */
+
+.logo h4 {
+  font-family: "Allison", cursive;
+  font-size: 5rem;
+  color: #c8a2c8;
+  font-weight: 900;
+  border-bottom: 15px black;
+  width: 20vw;
+  background-color: rgb(0, 0, 0);
+  padding: 0.5rem 3rem;
+  border-radius: 0.5rem;
+}
+
+/* navbar starts */
+
+.cont .navbar {
+  background-color: black;
+  margin-left: 1rem;
+  width: 95%;
+  border-radius: 0.5rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  width: 75%;
+  /* height: 25%; */
+  padding-bottom: 0px !important;
+}
+
+/* navbar ul */
+
+.cont .navbar ul {
+  display: flex;
+  width: 75%;
+  margin: 0%;
+  display: flex;
+  font-family: "Fredoka One", cursive;
+}
+
+/* navbars li  */
+
+.cont .navbar ul li {
+  list-style: none;
+  padding: 2%;
+}
+.cont .navbar ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+.cont .navbar ul li:first-child {
+  border: 3px solid white;
+  border-radius: 1rem;
+}
+/* on hovering a  */
+.cont .navbar ul li a:hover {
+  border: 2px white;
+  background-color: black;
+  border-radius: 1rem;
+}
+
+/* carousel */
+
+.wrap {
+  padding: 2%;
+}
+#customise-img {
+  justify-content: center;
+}
+#customise-img img {
+  width: 70vw;
+  border: 5px solid white;
+  border-radius: 1rem;
+  height: 100vh;
+}
+
+/* about us */
+.aboutUs {
+  display: flex;
+  padding: 4rem 10rem 4rem 10rem;
+}
+h2 { 
+
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  font-size: 25px;
+  font-family: "Besley";
+}
+.paragraph {
+  display: inline;
+}
+
+.main-para {
+  width: 45vw;
+  margin: 4rem 2rem; 
+  padding: 0rem 3rem;
+  font-family: 'Besley' ;
+}
+
+.image {
+  display: inline;
+  width: 45vw;
+}
+.main-img {
+  border-radius: 50%;
+}
+
+/* contact -us */
+
+
+.contact-us{
+  padding: 3rem;
+  justify-content: center;
+  text-align: center;
+  height: 35vh;
+  background-color: rgba(10, 9, 9, 0.87);
+  color: aqua;
+}
+
+
+.contact-us a{
+
+  color: aqua;
+}

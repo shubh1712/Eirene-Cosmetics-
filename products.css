@@ -1,0 +1,70 @@
+h2 {
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  font-size: 25px;
+  font-family: "Besley";
+}
+.wrap {
+  padding: 2rem ;
+  justify-content: center;
+  display: flex;
+}
+.inner-wrap {
+  padding:2rem;
+}
+
+@media only screen and (max-width:1014px){
+  .wrap {
+    padding: 2rem 18rem ;
+    display: block;
+  }
+}
+@media only screen and (max-width:800px){
+  .wrap {
+    padding: 2rem 15rem ;
+    display: block;
+  }
+}
+@media only screen and (max-width:700px){
+  .wrap {
+    padding: 2rem 12rem ;
+    /* justify-content: center; */
+    display: block;
+  }
+}
+@media only screen and (max-width:601px){
+  .wrap {
+    padding: 2rem 8.5rem ;
+    /* justify-content: center; */
+    display: block;
+  }
+}
+@media only screen and (max-width:535px){
+  .wrap {
+    padding: 2rem 7rem ;
+    /* justify-content: center; */
+    display: block;
+  }
+}
+@media only screen and (max-width:487px){
+  .wrap {
+    padding: 2rem 5rem ;
+    /* justify-content: center; */
+    display: block;
+  }
+}
+@media only screen and (max-width:486px){
+  .wrap {
+    padding: 2rem 0rem ;
+    /* justify-content: center; */
+    display: block;
+  }
+}
+@media only screen and (max-width:250px){
+  .wrap {
+    padding: 2rem 0rem ;
+    /* justify-content: center; */
+    display: block;
+  }
+}

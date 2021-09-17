@@ -1,0 +1,227 @@
+@media only screen and (max-width: 1094px) {
+  .logo h4 {
+    padding: 0.5rem 1rem;
+  }
+  .cont .navbar ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 2px;
+  }
+  .custom-class-img{
+    padding: 3rem;
+    margin-left: 4rem;
+    border-radius: 50%;
+  }
+  .aboutUs {
+    width:100vw ;
+    display: flex;
+    padding: 2rem 5rem 2rem 5rem;
+  }
+  
+  .paragraph {
+    display: inline;
+  }
+  
+  .main-para {
+    width: 45vw;
+    margin: 4rem 2rem; 
+    padding: 0rem 3rem;
+    font-family: 'Besley' ;
+  }
+  
+  .image {
+    display: inline;
+    width: 45vw;
+  }
+  .main-img {
+    border-radius: 50%;
+  }
+  
+}
+@media (min-width: 776px) and (max-width: 984px) {
+  .wrap{
+    padding: 1%;
+  }
+  h2 {
+    justify-content: center;
+    text-align: center;
+  }
+  #customise-img img {
+    width: 70vw;
+    border: 5px solid white;
+    border-radius: 1rem;
+    height: 85vh;
+  }
+  .custom-class-para{
+    padding: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 859px) {
+  .cont {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .cont .logo {
+    display: block;
+    margin: 2rem 2rem 2rem 2rem ;
+  }
+  .logo h4 {
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    font-size: 3rem;
+    width: 40vw;
+  }
+  .cont .navbar {
+    background-color: black;
+    margin-left: 2.5%;
+    width: 95%;
+    border-radius: 1.2rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .cont .navbar ul {
+    display: block;
+    font-family: "Fredoka One", cursive;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  
+  .burger {
+    display: none;
+  }
+
+  .main-img {
+    border-radius: 50%;
+    height: 50vh;
+    width: 35vw;
+    margin-top: 7rem;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .aboutUs {
+    width:100vw ;
+    display: block;
+    padding: 2rem 5rem 2rem 5rem;
+  }
+  
+  
+  /* .main-para {
+    width: 80vw;
+    margin: 2rem 1rem; 
+    padding: 0rem 3rem;
+    font-family: 'Besley' ;
+  } */
+/*   
+  .image {
+    width: 80vw;
+    margin: 2rem 1rem; 
+    padding: 0rem 8rem;
+
+  } */
+  .main-img {
+    border-radius: 50%;
+  }
+  .hamburger-menu{
+    padding: 3%;
+  }
+  .hamburger-menu .line{
+    width: 6%;
+    height: 5px;
+    margin-top: 1%;
+    background-color: black;
+    border-radius: 2px;
+  }
+  
+  .cont {
+    display: block;
+  }
+  .burger {
+    display: none;
+  }
+ 
+  h2 {
+    padding:0px;
+
+  }
+  #customise-img img {
+    width: 70vw;
+    border: 5px solid white;
+    border-radius: 1rem;
+    height: 75vh;
+  }
+ 
+  
+}
+@media (min-width:562px ) and (max-width:780px){
+  .main-para {
+    width: 80vw;
+    margin: 2rem 1rem; 
+    padding: 0rem 3rem;
+  }
+  
+  .image {
+    width: 80vw;
+    margin: 2rem 2rem; 
+
+    }
+  .main-img {
+    border-radius: 50%;
+    width: 50vw;
+    height: 34vh;
+  }
+}
+ 
+
+
+@media only screen and (max-width:562px){
+  .aboutUs {
+    display: block;
+    padding: 2rem;
+  }
+  
+  /* .paragraph {
+    display: inline;
+  } */
+  
+  .main-para {
+    width: 80vw;
+    margin: 2rem 1rem; 
+    padding: 0rem 3rem;
+  }
+  
+  .image {
+    width: 80vw;
+    margin: 2rem 2rem; 
+    
+  }
+  .main-img {
+    border-radius: 50%;
+    width: 50vw;
+    height: 34vh;
+    margin-top:3rem ;
+  }
+}
+  @media only screen and (max-width:436px){
+    .main-para {
+    width: 80vw;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+
+    }
+}
+@media only screen and (max-width: 372px){
+  .hamburger-menu{
+    padding: 3%;
+  }
+  .hamburger-menu .line{
+    width: 9%;
+    height: 5px;
+    margin-top: 1%;
+    background-color: black;
+    border-radius: 2px;
+  }
+}
