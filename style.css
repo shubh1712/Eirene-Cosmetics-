@@ -22,12 +22,16 @@ body {
 .cont {
   padding: 1% 2% 1% 2%;
   display: flex;
+  transition: transform 1s ease-in-out ;
+  transform: rotate(50) ;
+  
 }
 
 .cont .logo {
   display: inline;
   font-family: "Allison", cursive;
   font-weight: 900;
+  transition: 0.5s;
 }
 
 /* h4 */
@@ -53,6 +57,7 @@ body {
   border-radius: 0.5rem;
   justify-content: center;
   text-align: center;
+  transition: 0.5s;
 }
 
 .navbar ul {

@@ -1,11 +1,13 @@
 @media only screen and (max-width: 1094px) {
   .logo h4 {
     padding: 0.5rem 1rem;
+   
   }
   .cont .navbar ul li a {
     text-decoration: none;
     font-size: 1.1rem;
     padding: 2px;
+
   }
   .custom-class-img{
     padding: 3rem;
@@ -91,7 +93,8 @@
   }
   
   .burger {
-    display: none;
+    display: none ;
+    
   }
 
   .main-img {
